@@ -4,3 +4,7 @@
 
 layout: home
 ---
+Welcome. 
+
+## Misc
+* [Docker - basic](/pages/docker-basic)
