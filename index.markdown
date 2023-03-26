@@ -6,5 +6,20 @@ layout: home
 ---
 Welcome. 
 
-## Misc
-* [Docker - basic](/pages/docker-basic)
+## Python
+* [Python - Basic](/pages/python-basic.md)
+* [Python - Pandas](/pages/python-pandas.md)
+* [Python - Matplotlib](/pages/python-matplotlib.md)
+
+## Web development
+* [JavaScript](/pages/javascript.md)
+* [TypeScript](/pages/typescript.md)
+* [RxJS](/pages/rxjs.md)
+* [NgRX](/pages/ngrx.md)
+
+## Others
+* [regex](/pages/regex.md)
+* [**Private**] [Docker - basic](/pages/private/docker-basic)
+
+## Ship
+* [Ship](/pages/ship.md)
