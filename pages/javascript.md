@@ -83,10 +83,113 @@ valueがfalsy値である場合に、右辺の値を代入する
 
 #### 論理演算子を用いた論理値への変換
 * !演算子を用いることで、任意の方を論理型に変換できる。
-* !!を使えば、反転の反転になる。
+* `!!`を使えば、反転の反転になる。
 
 ### 制御構文
-#### 構造化プログラミング
+```javascript
+if (condition) {
+  ...
+} else if (condition) {
+  ...
+} else {
+  ...
+}
+```
+* 空文: 文末のセミコロンだけを示した、中身のない文のこと。
 
+```javascript
+switch (variable) {
+    case 'A':
+        ...;
+        break;
+    case 'B':
+    case 'C':
+        ...;
+        break;
+    default :
+        ...;
+        break;
+}
+```
+
+```javascript
+while (condition) {
+    ...;
+}
+```
+
+```javascript
+do {
+    ...;
+} while (condition);
+```
+
+```javascript
+for (let i=5; i<10; i++) {
+    console.log(i);
+} 
+```
+
+```javascript
+for (let key in object) {
+    ;
+} 
+```
+
+```javascript
+for (let value of array) {
+    ;
+} 
+```
+
+```javascript
+list.forEach(function(value, index, array) {
+    ...statements...;
+}, thisArg)
+```
+* thisArg: コールバック関数でthisが表す値
+
+
+
+* ```break```
+* ```continue```
+
+```javascript
+mylabel:
+for (let key in object) {
+    for (let key2 in object2) {
+        if (key2 == 'value') {break mylabel;}
+    }
+} 
+```
+* 複数のループを一度に脱出する
+
+```javascript
+try {
+    ...statements...;
+} catch(e) {
+    console.log(`${e.name}: ${e.message}`);
+} finally {
+    ...statements...;
+}
+```
+
+```javascript
+throw new Error('error message');
+```
+
+#### strictモード
+```javascript
+function hoge(){
+    'use strict';
+}
+```
+
+#### debugger命令
+```javascript
+debugger;
+```
+
+### 組み込みオブジェクト
 
 
