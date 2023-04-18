@@ -3,6 +3,18 @@ layout: page
 title: Python - basic
 ---
 
+#### constrained layout
+[Constrained Layout Guide — Matplotlib 3.7.1 documentation](https://matplotlib.org/stable/tutorials/intermediate/constrainedlayout_guide.html)
+
+```python
+plt.subplots(layout="constrained")
+
+plt.rcParams['figure.constrained_layout.use'] = True
+```
+
+[Tight Layout guide — Matplotlib 3.7.1 documentation](https://matplotlib.org/stable/tutorials/intermediate/tight_layout_guide.html)
+An alternative to tight_layout is constrained_layout.
+
 #### windrose
 * [GitHub - python-windrose/windrose: A Python Matplotlib, Numpy library to manage wind data, draw windrose (also known as a polar rose plot), draw probability density function and fit Weibull distribution](https://github.com/python-windrose/windrose)
 * [Welcome to windrose’s documentation! — windrose documentation](https://python-windrose.github.io/windrose/index.html)
