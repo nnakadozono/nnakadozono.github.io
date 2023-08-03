@@ -1,0 +1,1 @@
+rsync -arv pages ~/Dropbox/
