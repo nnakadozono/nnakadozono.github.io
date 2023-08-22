@@ -7,19 +7,24 @@ layout: home
 Welcome. 
 
 ## Python
-* [Python - Basic](/pages/python-basic.md)
-* [Python - Pandas](/pages/python-pandas.md)
-* [Python - Matplotlib](/pages/python-matplotlib.md)
+|
+[Basic](/pages/python-basic.md) | 
+[Pandas](/pages/python-pandas.md) | 
+[Matplotlib](/pages/python-matplotlib.md)
 
 ## Web development
-* [JavaScript](/pages/javascript.md)
-* [TypeScript](/pages/typescript.md)
-* [Angular](/pages/angular.md)
-* [RxJS](/pages/rxjs.md)
-* [NgRX](/pages/ngrx.md)
+|
+[JavaScript](/pages/javascript.md) | 
+[TypeScript](/pages/typescript.md) | 
+[Angular](/pages/angular.md) | 
+[RxJS](/pages/rxjs.md) | 
+[NgRX](/pages/ngrx.md) |
 
 ## .NET development
-* [.NET](/pages/dotnet.md)
+|
+[.NET](/pages/dotnet.md) | 
+[C#](/pages/csharp.md) |
+[F#](/pages/fsharp.md) |
 
 ## General development
 * [regex](/pages/regex.md)
