@@ -14,15 +14,19 @@ Welcome.
 ## Web development
 * [JavaScript](/pages/javascript.md)
 * [TypeScript](/pages/typescript.md)
+* [Angular](/pages/angular.md)
 * [RxJS](/pages/rxjs.md)
 * [NgRX](/pages/ngrx.md)
 
 ## .NET development
 * [.NET](/pages/dotnet.md)
 
-## Others
+## General development
 * [regex](/pages/regex.md)
 * [**Private**] [Docker - basic](/pages/private/docker-basic)
 
-## Ship
+## Physics
+* [Mechanics](/pages/mechanics.md)
+
+## Others
 * [Ship](/pages/ship.md)
