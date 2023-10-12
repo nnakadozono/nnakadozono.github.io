@@ -7,13 +7,12 @@ layout: home
 Welcome. 
 
 ## Python
-|
 [Basic](/pages/python-basic.md) | 
 [Pandas](/pages/python-pandas.md) | 
 [Matplotlib](/pages/python-matplotlib.md)
 
 ## Web development
-|
+[CSS](/pages/css.md) | 
 [JavaScript](/pages/javascript.md) | 
 [TypeScript](/pages/typescript.md) | 
 [Angular](/pages/angular.md) | 
@@ -21,17 +20,19 @@ Welcome.
 [NgRX](/pages/ngrx.md) |
 
 ## .NET development
-|
 [.NET](/pages/dotnet.md) | 
 [C#](/pages/csharp.md) |
 [F#](/pages/fsharp.md) |
 
 ## General development
-* [regex](/pages/regex.md)
-* [**Private**] [Docker - basic](/pages/private/docker-basic)
+[general](/pages/general-dev.md) | 
+[Private] [Docker - basic](/pages/private/docker-basic) | 
 
 ## Physics
-* [Mechanics](/pages/mechanics.md)
+[Mechanics](/pages/mechanics.md) | 
 
 ## Others
-* [Ship](/pages/ship.md)
+[Ship](/pages/ship.md) | 
+[Swimming](/pages/swimming.md) | 
+[Hiking](/pages/hiking.md) | 
+[gargen](/pages/garden.md) | 
