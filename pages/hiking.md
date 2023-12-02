@@ -9,6 +9,8 @@ title: Hiking
 * [六甲山ハイキングマップ](https://rokkosan.center/wp-content/themes/rvc_220425/download/mt_map_2023.pdf)
 * [2023年度　六甲・まやレジャーきっぷ | お得な乗車券 | 阪急電鉄](https://www.hankyu.co.jp/ticket/otoku/008376.html)
 
+## その他山関連情報
+* [箕面こもれびの森](https://minohkankou.net/pdf/mapomote.pdf)
 
 ## ロゲイニング
 * [アクトレップ](https://www.actrep-sports.com/)
