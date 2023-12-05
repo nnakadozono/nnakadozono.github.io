@@ -85,7 +85,9 @@ variable "変数名" {デフォルト値}
 * `terraform output`: アウトプットの確認。output指定したものを出力。
   * `output "ip" {value = "${aws_eip.ip.public_ip}"}`
 
-
+## その他
+* [terraform 0.14.0 terraform.lock.hclはレビュー時に理解必須なので要約してみた #Terraform - Qiita](https://qiita.com/nyamada43/items/b8becb672ad572897c25)
+  * Terraformが作業ディレクトリの.terraformサブディレクトリにキャッシュする様々なアイテムのロックファイルとのこと。バージョン管理に含めるべき。
 
 
 

@@ -27,7 +27,7 @@ Welcome.
 ## General development
 [general](/pages/general-dev.md) | 
 [Private] [Docker - basic](/pages/private/docker-basic) | 
-[terraform](/pages/terraform.md) | 
+[Terraform](/pages/terraform.md) | 
 
 ## Physics
 [Mechanics](/pages/mechanics.md) | 
