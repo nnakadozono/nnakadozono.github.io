@@ -11,7 +11,7 @@ Welcome.
 [Pandas](/pages/python-pandas.md) | 
 [Matplotlib](/pages/python-matplotlib.md)
 
-## Web development
+## Web Development
 [CSS](/pages/css.md) | 
 [JavaScript](/pages/javascript.md) | 
 [TypeScript](/pages/typescript.md) | 
@@ -19,15 +19,24 @@ Welcome.
 [RxJS](/pages/rxjs.md) | 
 [NgRX](/pages/ngrx.md) |
 
-## .NET development
+## .NET
 [.NET](/pages/dotnet.md) | 
 [C#](/pages/csharp.md) |
 [F#](/pages/fsharp.md) |
 
-## General development
-[general](/pages/general-dev.md) | 
+## General Development
+[General](/pages/general-dev.md) | 
 [Private] [Docker - basic](/pages/private/docker-basic) | 
 [Terraform](/pages/terraform.md) | 
+
+[ChatGPT](/pages/chatgpt.md) | 
+[LangChain](/pages/langchain.md) | 
+
+## Ask ChatGPT
+[AWS Lambda](/pages/chatgpt-aws-lambda.md) | 
+[Docker](/pages/chatgpt-docker.md) | 
+
+
 
 ## Physics
 [Mechanics](/pages/mechanics.md) | 
@@ -36,4 +45,4 @@ Welcome.
 [Ship](/pages/ship.md) | 
 [Swimming](/pages/swimming.md) | 
 [Hiking](/pages/hiking.md) | 
-[gargen](/pages/garden.md) | 
+[Gargen](/pages/garden.md) | 

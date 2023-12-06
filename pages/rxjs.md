@@ -12,7 +12,9 @@ title: RxJS
   * [RxJS を学ぼう #3 – 知ってると便利な ( かもしれない ) オペレータ 8選 – PSYENCE:MEDIA](https://blog.recruit.co.jp/rmp/front-end/post-11539/)
   * [RxJS を学ぼう #4 – COLD と HOT について学ぶ / ConnectableObservable – PSYENCE:MEDIA](https://blog.recruit.co.jp/rmp/front-end/post-11558/)
   * [RxJS を学ぼう #5 – Subject について学ぶ / Observable × Observer – PSYENCE:MEDIA](https://blog.recruit.co.jp/rmp/front-end/post-11951/)
+  * [RxJS Quick Start with Practical Examples - YouTube](https://www.youtube.com/watch?v=2LCo926NFLI)
 
+  
 #### What is RxJS?
 * RxJS = **Reactive Extensions library for JavaScript**
 * RxJS is a library for **reactive programming** using **Observables**, to make it easier to compose **asynchronous** or callback-based code.
