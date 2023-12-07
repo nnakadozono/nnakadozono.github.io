@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Mechanics
+title: Physics
 ---
 
 # 解析力学

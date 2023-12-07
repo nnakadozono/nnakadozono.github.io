@@ -28,6 +28,7 @@ Welcome.
 [General](/pages/general-dev.md) | 
 [Private] [Docker - basic](/pages/private/docker-basic) | 
 [Terraform](/pages/terraform.md) | 
+[Gyo](/pages/gyo.md) | 
 
 [ChatGPT](/pages/chatgpt.md) | 
 [LangChain](/pages/langchain.md) | 
@@ -36,12 +37,8 @@ Welcome.
 [AWS Lambda](/pages/chatgpt-aws-lambda.md) | 
 [Docker](/pages/chatgpt-docker.md) | 
 
-
-
-## Physics
-[Mechanics](/pages/mechanics.md) | 
-
 ## Others
+[Physics](/pages/physics.md) | 
 [Ship](/pages/ship.md) | 
 [Swimming](/pages/swimming.md) | 
 [Hiking](/pages/hiking.md) | 

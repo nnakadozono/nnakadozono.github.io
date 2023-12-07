@@ -28,7 +28,18 @@ title: General
 
 *Source: [改訂3版JavaScript本格入門 ～モダンスタイルによる基礎から現場での応用まで：書籍案内｜技術評論社](https://gihyo.jp/book/2023/978-4-297-13288-0)*
 
-#### VS Codeでウィンドウによって色を変える
+#### The Twelve-Factor App
+*Source: [The Twelve-Factor App](https://12factor.net/)*
+
+#### SOLID原則
+*Source: [SOLID - Wikipedia](https://ja.wikipedia.org/wiki/SOLID)*
 
 
+* 単一責任の原則 (single-responsibility principle)
+* 開放閉鎖の原則（open/closed principle）
+* リスコフの置換原則（Liskov substitution principle）
+* インターフェース分離の原則 (interface segregation principle)（英語版）
+* 依存性逆転の原則（dependency inversion principle）
 
+
+* [イラストで理解するSOLID原則 #初心者 - Qiita](https://qiita.com/baby-degu/items/d058a62f145235a0f007)
