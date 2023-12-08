@@ -36,6 +36,8 @@ Welcome.
 ## Ask ChatGPT
 [AWS Lambda](/pages/chatgpt-aws-lambda.md) | 
 [Docker](/pages/chatgpt-docker.md) | 
+[dotnet cli](/pages/chatgpt-dotnet-cli.md) | 
+
 
 ## Others
 [Physics](/pages/physics.md) | 
