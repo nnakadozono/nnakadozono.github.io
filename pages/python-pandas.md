@@ -21,5 +21,9 @@ df.to_csv("output.csv", float_format='%.2f')
 #### str.contains accepts regex
 * [pandas.Series.str.contains — pandas 1.5.3 documentation](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.contains.html)
 
-
+#### 重複: duplicated
+```python
+df.duplicated()
+```
+*Source: [pandas.DataFrame.duplicated — pandas 2.1.4 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.duplicated.html)*
 

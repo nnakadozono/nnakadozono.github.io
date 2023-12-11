@@ -20,4 +20,10 @@ An alternative to tight_layout is constrained_layout.
 * [Welcome to windrose’s documentation! — windrose documentation](https://python-windrose.github.io/windrose/index.html)
 * [Welcome to windrose’s documentation! — windrose documentation](https://windrose.readthedocs.io/en/latest/index.html)
 
+#### stacked histogram
+```python
+ax.hist(x, n_bins, density=True, histtype='bar', stacked=True)
+```
+*source: [The histogram (hist) function with multiple data sets — Matplotlib 3.8.2 documentation](https://matplotlib.org/stable/gallery/statistics/histogram_multihist.html#sphx-glr-gallery-statistics-histogram-multihist-py)*
+
 

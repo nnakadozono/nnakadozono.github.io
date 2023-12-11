@@ -9,7 +9,9 @@ Welcome.
 ## Python
 [Basic](/pages/python-basic.md) | 
 [Pandas](/pages/python-pandas.md) | 
-[Matplotlib](/pages/python-matplotlib.md)
+[Matplotlib](/pages/python-matplotlib.md) |
+[Plotly](/pages/python-plotly.md) | 
+
 
 ## Web Development
 [CSS](/pages/css.md) | 
