@@ -2,9 +2,18 @@
 layout: page
 title: F#
 ---
+#### References
+* [F# 関連のドキュメント - 概要、チュートリアル、リファレンス。 | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/fsharp/)
+* [Symbol and Operator Reference - F# | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/symbol-and-operator-reference/)
+* [F#ドキュメント | F# documents in Japanese](https://fsdoc.jp/)
 
-[Symbol and Operator Reference - F# | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/symbol-and-operator-reference/)
+#### F# on Mac
+* [Use F# on macOS | The F# Software Foundation](https://fsharp.org/use/mac/)
+* [Ionide](https://ionide.io/index.html)
 
+#### Food for Thought
+* [Railway oriented programming | F# for fun and profit](https://fsharpforfunandprofit.com/posts/recipe-part2/)
+* [挿入ソートと選択ソートは双対 #Haskell - Qiita](https://qiita.com/lotz/items/a69587882be6e987de4e)
 
 #### Seq, List, Array
 
@@ -29,7 +38,7 @@ F#での`Seq`、`List`、`Array`は、異なるコレクション型であり、
    ```
 
 3. `Array`（配列）:
-   - `Array`は可変サイズでない、イミュータブルな配列です。要素へのランダムアクセスが高速で、一度作成された後に要素を変更することはできません。
+   - `Array`は可変サイズでない、イミュータブルな配列です(本当か?????)。要素へのランダムアクセスが高速で、一度作成された後に要素を変更することはできません。
    - 配列は基本的にメモリ内に連続した要素を格納するため、インデックスベースのアクセスが高速です。しかし、サイズを変更できないため、大規模な要素の挿入や削除は非効率的です。
    - 配列は要素の操作や高性能のアルゴリズムに適しています。
 
