@@ -31,6 +31,7 @@ Welcome.
 [Private] [Docker - basic](/pages/private/docker-basic) | 
 [Terraform](/pages/terraform.md) | 
 [Gyo](/pages/gyo.md) | 
+[Windows](/pages/windows.md) | 
 
 [ChatGPT](/pages/chatgpt.md) | 
 [LangChain](/pages/langchain.md) | 
