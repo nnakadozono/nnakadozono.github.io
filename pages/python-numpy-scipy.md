@@ -1,57 +1,7 @@
 ---
 layout: page
-title: Python - pandas
+title: Python - numpy, scipy
 ---
-
-
-#### float_format in to_csv
-```python
-df.to_csv("output.csv", float_format='%.2f')
-```
-
-
-#### 2-dimensional binning
-* [python - 2-dimensional binning with Pandas - Stack Overflow](https://stackoverflow.com/questions/43422961/2-dimensional-binning-with-pandas)
-
-
-#### difference (delta) from previous row
-* [pandasで行・列の差分・変化率を取得するdiff, pct_change | note.nkmk.me](https://note.nkmk.me/python-pandas-diff-pct-change/)
-* waypoints.reset_index().timestamp.diff().shift(-1)
-
-#### str.contains accepts regex
-* [pandas.Series.str.contains — pandas 1.5.3 documentation](https://pandas.pydata.org/docs/reference/api/pandas.Series.str.contains.html)
-
-#### 重複: duplicated
-```python
-df.duplicated()
-```
-*Source: [pandas.DataFrame.duplicated — pandas 2.1.4 documentation](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.duplicated.html)*
-
-#### Unpivot: melt
-```python
-pd.melt(df, id_vars=['A'], value_vars=['B'])
-```
-*Source: [pandas.melt — pandas 2.1.4 documentation](https://pandas.pydata.org/docs/reference/api/pandas.melt.html)*
-
-#### cut: Bin values into discrete intervals
-```python
-pd.cut(np.array([1, 7, 5, 4, 6, 3]), 3)
-```
-*Source: [pandas.cut — pandas 2.1.4 documentation](https://pandas.pydata.org/docs/reference/api/pandas.cut.html)*
-
-#### drop: Drop specified labels from rows or columns
-```python
-df.drop(['B', 'C'], axis=1)
-```
-*Source: [pandas.DataFrame.drop — pandas 2.1.4 documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.drop.html)*
-
-#### Difference between apply() and aggregate() functions
-* [python - Pandas difference between apply() and aggregate() functions - Stack Overflow](https://stackoverflow.com/questions/44864655/pandas-difference-between-apply-and-aggregate-functions)
-
-
-
-
-## numpy, scipy
 ####  2-dimensional interpolation using scipy
 * [scipy.interpolate.interp2dによる2次元データの補間を解説 – Helve Tech Blog](https://helve-blog.com/posts/python/scipy-interp2d/)
 * [scipy.interpolate.CloughTocher2DInterpolator — SciPy v1.11.4 Manual](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.CloughTocher2DInterpolator.html)

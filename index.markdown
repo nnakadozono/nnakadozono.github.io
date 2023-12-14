@@ -10,6 +10,7 @@ Welcome.
 [Basic](/pages/python-basic.md) | 
 [Pandas](/pages/python-pandas.md) | 
 [Matplotlib](/pages/python-matplotlib.md) |
+[Numpy, Scipy](/pages/python-numpy-scipy.md) |
 [Plotly](/pages/python-plotly.md) | 
 
 

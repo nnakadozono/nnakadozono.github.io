@@ -27,3 +27,8 @@ ax.hist(x, n_bins, density=True, histtype='bar', stacked=True)
 *source: [The histogram (hist) function with multiple data sets — Matplotlib 3.8.2 documentation](https://matplotlib.org/stable/gallery/statistics/histogram_multihist.html#sphx-glr-gallery-statistics-histogram-multihist-py)*
 
 
+#### Show tick labels when sharing an axis
+```python
+ax.xaxis.set_tick_params(labelbottom=True)
+```
+*source: [python - Show tick labels when sharing an axis - Stack Overflow](https://stackoverflow.com/questions/29266966/show-tick-labels-when-sharing-an-axis)*
