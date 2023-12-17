@@ -33,6 +33,7 @@ Welcome.
 [Terraform](/pages/terraform.md) | 
 [Gyo](/pages/gyo.md) | 
 [Windows](/pages/windows.md) | 
+[AWS Certification](/pages/aws-certification.md) | 
 
 [ChatGPT](/pages/chatgpt.md) | 
 [LangChain](/pages/langchain.md) | 
