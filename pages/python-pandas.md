@@ -49,6 +49,22 @@ df.drop(['B', 'C'], axis=1)
 * [python - Pandas difference between apply() and aggregate() functions - Stack Overflow](https://stackoverflow.com/questions/44864655/pandas-difference-between-apply-and-aggregate-functions)
 
 
+#### apply
+* ある1列について、隠せるに操作をする
+  ```python
+  f(frame['col'])
+  frame['col'].map(f)
+  frame['col'].map(lambda x: f(x))
+  ```
+* 各行について操作をする
+   ```python
+   frame.apply(f, axis='columns')
+   ```
+* gorupbyして集約したDataFrameに対して操作をする
+   ```python
+   apply
+   ```
+
 
 
 ## numpy, scipy
