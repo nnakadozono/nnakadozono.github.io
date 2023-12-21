@@ -64,6 +64,16 @@ df.drop(['B', 'C'], axis=1)
    ```python
    apply
    ```
+p165
+* `frame.apply(f)`: axis=0, index
+* `frame.apply(f, axis='columns)`: axis=1, columns
+* `f`は値だけでなく、Seriesを返しても良い
+* `applymap`: 全ての要素に適用
+p218
+* `map`: Seriesが要素ごとに関数を適用するメソッド
+p221
+* `index`: 
+
 
 
 
