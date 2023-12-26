@@ -1,0 +1,84 @@
+---
+layout: post
+title:  "Contents 2023 (WIP)"
+date:   2023-12-26 23:59:00 +0900
+categories: blog
+---
+
+アウトドアに興味が出てきたのが、コンテンツにも影響していたなぁ。
+
+### YouTube
+* [タビートニク Tabeatnik - YouTube](https://www.youtube.com/@tabeatnik)
+  * 双子がユーラシア大陸を旅する。無事にゴールした。
+  * オススメ。[【混沌】カオスな旧市街オールドダッカ散策、船がひしめくショドルガット。【ユーラシア大陸横断＃10】 - YouTube](https://www.youtube.com/watch?v=3F9CdGGwBBw)
+
+トレラン
+* [ガチオのランチャン - YouTube](https://www.youtube.com/@gachio)
+* [Gao ただ走るだけの動画 - YouTube](https://www.youtube.com/@gao_trailrunning)
+* [いちまみ夫婦登山ch - YouTube](https://www.youtube.com/@ichimami_0811)
+* [はなおの地球登り🌋 - YouTube](https://www.youtube.com/@hanao_on_EARTH)
+
+その他
+* [ばりやわとんこつ🍜 - YouTube](https://www.youtube.com/@bariyawa_tonkotsu)
+  * 福岡の芸人さん
+* [Fireship - YouTube](https://www.youtube.com/@Fireship)
+  * Software developmentに関わる様々な技術を100秒で説明してくれるのがありがたい。
+* [たむらかえ2 - YouTube](https://www.youtube.com/@tamurakae2)
+  * 物理系チル系Youtuber
+
+### Podcast
+* [Replicant.fm – Medium](https://medium.com/replicantfm)
+  * 東京で一番オシャレなPodcast。アウトドアの話題が豊富なので、Podcastではことし一番熱心に聞いたかも。
+* [Interaxion Podcast - Interaxion Podcast](https://interaxion-podcast.github.io/)
+  * 物理系Podcast! みんな聴こう!
+* [Rebuild - Podcast by Tatsuhiko Miyagawa](https://rebuild.fm/)
+  * ep374 OpenAI回、ep357 keyboard沼回とかが面白かった。
+* [ジェーン・スーと堀井美香の「OVER THE SUN」 | TBSラジオ ときめくときを。](https://www.tbsradio.jp/ots/)
+  * 妻に教えてもらった。  
+
+### 本
+* [好き好き大好き超愛してる。 (講談社文庫) | 舞城 王太郎 |本 | 通販 | Amazon](https://amzn.asia/d/hoWoUfY)
+  * 心がえぐられた。
+* [ChatGPT/LangChainによるチャットシステム構築［実践］入門：書籍案内｜技術評論社](https://gihyo.jp/book/2023/978-4-297-13839-4)
+  * LLM周りの概念を知ることができて良かった。
+
+### 観たもの
+* [映画『THE FIRST SLAM DUNK』](https://slamdunk-movie.jp/)
+  * 絵がキレイだった。原作の最後がどうなるのかふつうに覚えていなくて、クライマックスがとてもハラハラした。
+* [映画『小さき麦の花』公式サイト](https://moviola.jp/muginohana/#modal)
+  * 静かな映画
+
+### 買ったもの
+* Apple Watch SE Gen2
+  * 買ったのは去年。水泳専用。大活躍した。次はランにも使おう。
+* arenaの度付きゴーグル
+  * 大活躍した。
+
+アウトドア的な服
+* Columbia ブルーステム ニーパンツ
+* THE NORTH FACE アルパインライトパンツ
+* Patagonia アルプライト・ダウン・プルオーバー
+  * 公式サイトで、アウトレット品として半額で買えた。
+
+### 食べたもの
+* [FRESHNESS BURGER フレッシュネスバーガー](https://www.freshnessburger.co.jp/)
+  * (マクドと比べて)高いだけあって、めちゃおいしいと思った。夏のパクチーのバーガーを食べた。
+* 畑で育てた里芋
+  * 採れたての里芋ってすごくおいしいんだね。
+* [Amazon | 【第2類医薬品】ツムラ漢方補中益気湯エキス顆粒 48包 | ツムラ漢方 | 漢方・生薬](https://amzn.asia/d/cTKB446) 
+  * 効いているのか効いていないのか分からないけど、でも、飲んでいないと体が重く、すごく疲れる気がする。
+
+### イベントとか
+* [あじさい - 学部の物理学の授業](https://physics.math.jp/discord/%E5%AD%A6%E9%83%A8%E3%81%AE%E7%89%A9%E7%90%86%E5%AD%A6%E3%81%AE%E6%8E%88%E6%A5%AD)
+  * ずっとやりたかった物理の学び直しに着手できた。
+* 街ロゲ (ロゲイニング)
+  * 家族で3つに参加した。2つで入賞した。ラッキー。次は普通の、自然の中で地図を読むロゲイニングをやってみたいなぁ。
+* プール、海、SUP
+  * 水泳にハマったことで、今年の夏はプールや海にいった。SUPもした。
+* 指宿
+
+
+
+
+
+
