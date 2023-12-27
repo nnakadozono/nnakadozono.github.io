@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Contents 2023 (WIP)"
+title:  "Contents 2023"
 date:   2023-12-26 23:59:00 +0900
 categories: blog
 ---
