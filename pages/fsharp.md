@@ -15,6 +15,49 @@ title: F#
 * [Railway oriented programming | F# for fun and profit](https://fsharpforfunandprofit.com/posts/recipe-part2/)
 * [挿入ソートと選択ソートは双対 #Haskell - Qiita](https://qiita.com/lotz/items/a69587882be6e987de4e)
 
+
+#### /// \<inheritdoc/\>
+基底クラス、インターフェイス、および同様のメソッドから、XML コメントを継承する。
+* [Visual Studio 2019 v16.4以降でC#を使う場合にはinheritdocを使った方がいいという話 #C# - Qiita](https://qiita.com/tat_tt/items/095db2ff7f754a01ecb6)
+* [クラスとそのメンバー用として推奨される XML ドキュメント タグ - C# | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/xmldoc/recommended-tags#inheritdoc)
+
+#### Option.bind
+`bind f inp` evaluates to `match inp with None -> None | Some x -> f x`
+
+[Option (FSharp.Core) | FSharp.Core](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-optionmodule.html#bind)
+
+```fsharp
+let tryParse (input: string) =
+   match System.Int32.TryParse input with
+   | true, v -> Some v
+   | false, _ -> None
+None |> Option.bind tryParse // evaluates to None
+Some "42" |> Option.bind tryParse // evaluates to Some 42
+Some "Forty-two" |> Option.bind tryParse // evaluates to None
+```
+
+#### Option.toNullable
+Convert the option to a Nullable value.
+
+[Option (FSharp.Core) | FSharp.Core](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-optionmodule.html#toNullable)
+
+```fsharp
+(None: int option) |> Option.toNullable // evaluates to new System.Nullable<int>()
+Some 42 |> Option.toNullable // evaluates to new System.Nullable(42)
+```
+
+
+#### Option.toObj
+Convert an option to a potentially null value.
+
+[Option (FSharp.Core) | FSharp.Core](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-optionmodule.html#toObj)
+
+```fsharp
+(None: string option) |> Option.toObj // evaluates to null
+Some "not a null string" |> Option.toObj // evaluates to "not a null string"
+```
+
+
 #### Seq, List, Array
 
 F#での`Seq`、`List`、`Array`は、異なるコレクション型であり、それぞれ異なる用途に適しています。以下にそれぞれのコレクション型について説明します。

@@ -43,3 +43,7 @@ title: General
 
 
 * [イラストで理解するSOLID原則 #初心者 - Qiita](https://qiita.com/baby-degu/items/d058a62f145235a0f007)
+
+#### いろいろな言語のDATETIME型
+[9時間足すんだっけ引くんだっけ問題～あるいは、諸プログラミング言語はいかにタイムゾーンと向き合っているか - エムスリーテックブログ](https://www.m3tech.blog/entry/time-types)
+
