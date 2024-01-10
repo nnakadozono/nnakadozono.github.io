@@ -57,6 +57,16 @@ Convert an option to a potentially null value.
 Some "not a null string" |> Option.toObj // evaluates to "not a null string"
 ```
 
+#### F# on Mac (2024)
+* [Use F# on macOS | The F# Software Foundation](https://fsharp.org/use/mac/)
+* [Get Started with F# in Visual Studio Code - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode)
+* VS Codeでやる場合、
+  1. .NET Core SDKをインストール (.NET 6だと、VS CodeでF#を動かせない!)
+  1. VS CodeにIonideの機能拡張を入れる
+  1. ```dotnet new console -lang "F#" -o FirstIonideProject```
+  1. MyFirstScript.fsxに何か書く
+  1. 選択して、Alt+Enter (FSI: Send selection)するとTerminalが立ち上がってFSIが走る
+
 
 #### Seq, List, Array
 
