@@ -31,6 +31,10 @@ title: C#
   * 遅延評価。whereやselectではデータベースにアクセスせず、即時評価のToListやFirstOrDefaultが実行されて初めて処理される。実行される瞬間に1つのクエリに変換される。
   * LINQ to SQLから、LINQ to Objectsに入れ替わるタイミング。SQLとC#で異なる。混在させない。
 * Lambda式: ?.Where(p => p.Prive>1000)。小さな範囲である限定的な目的のために繰り返し同じ処理を実行したい場合に使う。publicメソッドを作成してしまうと、他から使われる可能性があるため、きちんと設計やテストをしなくてはならなくなる。
+* Windowsインストーラー
+  * .msi: アプリのパッケージファイル。Windowsインストーラー上でセットアップとして動作するファイル。
+  * setup.exe: Windowsインストーラーがインストールされていない場合には、ダウンロードとインストールを行い、その他の必須コンポーネントが不足している場合にはそのダウンロードとインストールを行ってから、.msiファイルによるセットアップを開始する。
+
 
 
 #### MSDN (Microsoft Developer Network) -> Microsoft Docs (2020-) -> Microsoft Learn (2022-)
