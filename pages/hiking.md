@@ -17,11 +17,6 @@ title: Hiking
 * [第1回Mt.Rokkoロゲイニング2023 - アクトレップ](https://www.actrep-sports.com/rogaining/mt-rokko-rogaining/)
 * [OMM LITE BIKE HAKUBA, OTARI 2023 – OMM JAPAN OFFICIAL](https://theomm.jp/pages/omm-lite-bike-hakuba-otari-2023)
 
-## ランニング
-* [トレーニング＆サポート - コニカミノルタ陸上競技部 | コニカミノルタ](https://www.konicaminolta.com/jp-ja/athlete/running/index.html)
-* [ランナー膝（腸脛靱帯炎）ほか、ランニングで起きやすい膝の疾患と原因｜スポーツによる慢性の痛み｜痛みwith](https://www.healthcare.omron.co.jp/pain-with/sports-chronic-pain/runners-knee/)
-* [ランニングによる膝の痛みの治療と予防法｜スポーツによる慢性の痛み｜痛みwith](https://www.healthcare.omron.co.jp/pain-with/sports-chronic-pain/treatment-of-knee-pain-by-running/)
-
 ## 読図
 ### 地図読み
 * 地図
