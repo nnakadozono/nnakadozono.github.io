@@ -67,6 +67,10 @@ Some "not a null string" |> Option.toObj // evaluates to "not a null string"
   1. MyFirstScript.fsxに何か書く
   1. 選択して、Alt+Enter (FSI: Send selection)するとTerminalが立ち上がってFSIが走る
 
+#### Fnatomas
+* [Fantomas](https://fsprojects.github.io/fantomas/)
+F# source code formatter
+
 
 #### Seq, List, Array
 
