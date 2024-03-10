@@ -49,6 +49,7 @@ Welcome.
 [Physics](/pages/physics.md) | 
 [Ship](/pages/ship.md) | 
 [Swimming](/pages/swimming.md) | 
-[Hiking](/pages/running.md) | 
+[Running](/pages/running.md) | 
 [Hiking](/pages/hiking.md) | 
+[Triathlon](/pages/triathlon.md) | 
 [Gargen](/pages/garden.md) | 

@@ -5,7 +5,7 @@ title: Running
 
 ## 基礎
 * [トレーニング＆サポート - コニカミノルタ陸上競技部 | コニカミノルタ](https://www.konicaminolta.com/jp-ja/athlete/running/index.html)
-
+* [ランニング講座｜アミノバリュー公式サイト｜大塚製薬](https://www.otsuka.co.jp/a-v/run/)
 
 ## 書籍
 * [ランニングする前に読む本　最短で結果を出す科学的トレーニング - ブルーバックスシリーズの特設ページ](https://bluebacks.kodansha.co.jp/books/9784065020050/appendix/)
@@ -15,6 +15,7 @@ title: Running
 ## Youtube
 * [三津家貴也 - YouTube](https://www.youtube.com/@takaya_mitsuka)
 * [志村美希 MIKI - YouTube](https://www.youtube.com/@mikichannelo)
+* [TKD PROJECT - YouTube](https://www.youtube.com/@TKDPROJECT)
 
 ## 大会
 * [RUNNET － 日本最大級！走る仲間のランニングポータル](https://runnet.jp/)
