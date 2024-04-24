@@ -47,3 +47,30 @@ Starting in January 2020, the website was fully integrated with Microsoft Docs (
 MSDN's primary web presence at msdn.microsoft.com was a collection of sites for the developer community that provided information, documentation, and discussion that was authored both by Microsoft and by the community at large.
 
 
+#### Source generator, partial method, GeneratedRegex
+* きっかけ: Formatterでregex source generationの警告がでた。
+  * [SYSLIB diagnostics for regex source generation - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fundamentals/syslib-diagnostics/syslib1040-1049)
+  * 次のように直すとよいらしい。ただし、partialを使う。
+  * [.NET regular expression source generators - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators?pivots=dotnet-8-0)
+	```C#
+	[GeneratedRegex("abc|def", RegexOptions.IgnoreCase, "en-US")]
+	private static partial Regex AbcOrDefGeneratedRegex();
+
+	private static void EvaluateText(string text)
+	{
+		if (AbcOrDefGeneratedRegex().IsMatch(text))
+		{
+			// Take action with matching text
+		}
+	}
+	```
+
+* **Source generator**: ビルド時にソースコード生成してくれる仕組み
+* **partialメソッドの拡張**:
+  * partialクラス: classの定義を複数箇所に分けられる。自動的に生成される部分とユーザーが作成する部分を分けておく、など。
+  * 既存のpartialメソッド: メソッドの宣言と定義を分けて書ける。定義を書かなくてもよい。宣言の部分を自動生成のコードに含め、定義の部分は別ファイルに手でかけば、自動生成で上書きされることがない。
+  * paritialメソッドの新しい機能: 逆向きの用途で使うもの。 手書きの方が先にあって、その実装をSource Generatorに埋めてもらう。
+  * [partial メソッドの拡張 (C# 9.0 候補機能) | ++C++; // 未確認飛行 C ブログ](https://ufcpp.net/blog/2020/6/extendingpartialmethod/)
+* **GeneratedRegex**: 正規表現に相当するコードをコンパイル時に生成してくれる。
+  * [GeneratedRegexで遊ぶ #C# - Qiita](https://qiita.com/kurema/items/068385ba2f8bbe3858e1)
+
