@@ -5,3 +5,5 @@ _site
 vendor
 pages/private/
 .vscode/
+
+.fake

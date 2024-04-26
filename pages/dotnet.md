@@ -2,6 +2,7 @@
 layout: page
 title: Dotnet
 ---
+[.NET documentation | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/)
 
 ### What is .NET? (.NET Platform)
 
@@ -173,5 +174,22 @@ title: Dotnet
 ### What is the Program.fs?
 
 ### Is the Program.fs working in production?
+
+### 
+
+#### MSDN (Microsoft Developer Network) -> Microsoft Docs (2020-) -> Microsoft Learn (2022-)
+**[Microsoft Developer Network - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Developer_Network)**
+
+Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firm's relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages of Microsoft's applications. The relationship management was situated in assorted media: web sites, newsletters, developer conferences, trade media, blogs and DVD distribution.
+
+Starting in January 2020, the website was fully integrated with Microsoft Docs (itself integrated into Microsoft Learn in 2022).
+
+MSDN's primary web presence at msdn.microsoft.com was a collection of sites for the developer community that provided information, documentation, and discussion that was authored both by Microsoft and by the community at large.
+
+* [MSDN と TechNet の docs.microsoft.com への移行に関する更新情報 | Microsoft Learn](https://learn.microsoft.com/ja-jp/teamblog/msdn-technet-migration)
+* [突然消滅したMicrosoft TechNet／MSDNブログ（日本語）の捜索：山市良のうぃんどうず日記（154） - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1906/04/news004.html)
+
+### Rider .NET IDE by JetBrains
+* [Rider: The Cross-Platform .NET IDE from JetBrains](https://www.jetbrains.com/rider/promo/?source=google&medium=cpc&campaign=APAC_en_JP_Rider_Search&term=c%23%20mac&content=468065244703&gad_source=1&gclid=CjwKCAjwoa2xBhACEiwA1sb1BDvfZvDut2gjQmMAaW27rLkbNNv9MQkpUayQcCrGQ7Q1v7wrPQAyQhoCeYQQAvD_BwE)
 
 

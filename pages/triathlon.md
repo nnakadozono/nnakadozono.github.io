@@ -3,13 +3,16 @@ layout: page
 title: Triathlon
 ---
 
+
 ## Aquathlon
-* 
+* [第10回 明石国際アクアスロン大会 | MSPO ENTRY](https://www.mspo.jp/events/62959)
+* [[リザルト掲載] 第９回明石国際アクアスロン大会 – 兵庫県トライアスロン協会](https://hyogo-triathlon.jp/2023/07/akashikokusaiaquathlon2023-result/)
 
 ## Duathlon
 * [第３回OSAKAデュアスロン2024 - アクトレップ](https://www.actrep-sports.com/osaka-duathlon/)
 
-
+## OWS
+* [OWSアドバイス - 一般社団法人日本国際オープンウォータースイミング協会](https://openwater.jp/category/advise/)
 
 ## Triathlon
 * [JTU Web Magazine -公益社団法人日本トライアスロン連合（JTU）](https://www.jtu.or.jp/): 

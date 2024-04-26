@@ -3,6 +3,12 @@ layout: page
 title: General
 ---
 
+#### デザインパターン
+* [デザインパターン](https://refactoring.guru/ja/design-patterns)
+
+#### プログラミング開発
+* [TypeScriptで学ぶ！SOLID原則](https://zenn.dev/milab/articles/05d800b173bbad)
+
 #### 矩形選択
 * VS Code (Mac): CMD+Opt+Shift +Arrow
 

@@ -37,14 +37,7 @@ title: C#
 
 
 
-#### MSDN (Microsoft Developer Network) -> Microsoft Docs (2020-) -> Microsoft Learn (2022-)
-**[Microsoft Developer Network - Wikipedia](https://en.wikipedia.org/wiki/Microsoft_Developer_Network)**
 
-Microsoft Developer Network (MSDN) was the division of Microsoft responsible for managing the firm's relationship with developers and testers, such as hardware developers interested in the operating system (OS), and software developers developing on the various OS platforms or using the API or scripting languages of Microsoft's applications. The relationship management was situated in assorted media: web sites, newsletters, developer conferences, trade media, blogs and DVD distribution.
-
-Starting in January 2020, the website was fully integrated with Microsoft Docs (itself integrated into Microsoft Learn in 2022).
-
-MSDN's primary web presence at msdn.microsoft.com was a collection of sites for the developer community that provided information, documentation, and discussion that was authored both by Microsoft and by the community at large.
 
 
 #### Source generator, partial method, GeneratedRegex
