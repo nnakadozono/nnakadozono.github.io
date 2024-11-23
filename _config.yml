@@ -30,10 +30,23 @@ twitter_username: zono_abebe
 github_username:  nnakadozono
 
 # Build settings
-markdown: GFM
+markdown: kramdown
+kramdown:
+  input: GFM
 theme: minima
 plugins:
   - jekyll-feed
+  # https://github.com/github/pages-gem/blob/master/lib/github-pages/plugins.rb
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+  - jekyll-gist
+  # - jekyll-github-metadata
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings  
 
 # Exclude from processing.
 # The following items will not be processed, by default.
