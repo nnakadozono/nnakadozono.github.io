@@ -11,6 +11,8 @@ title: Running
 * [ランニングする前に読む本　最短で結果を出す科学的トレーニング - ブルーバックスシリーズの特設ページ](https://bluebacks.kodansha.co.jp/books/9784065020050/appendix/)
 * [もっと楽にもっと速く がんばらないランニング | 三津家 貴也](https://amzn.asia/d/3lXP5tn)
 * [走ることについて語るときに僕の語ること (文春文庫) | 村上 春樹](https://amzn.asia/d/cJhTTlf)
+* [BORN TO RUN 走るために生まれた | クリストファー・マクドゥーガル](https://amzn.asia/d/bV4liDs)
+
 
 ## Youtube
 * [三津家貴也 - YouTube](https://www.youtube.com/@takaya_mitsuka)

@@ -55,7 +55,7 @@ localhost:4200
 ## Property binding
 * [attribute] ([src])
 * the value in quotes should be an actual property from the component 
-* {{}}: Aungular interpolation syntax
+* {% raw %}{{}}{% endraw %}: Aungular interpolation syntax
 
 ## ngFor directive
 * Iterating over data
@@ -76,8 +76,7 @@ localhost:4200
   })
 * routes.ts
   * import { Routes } from '@angular/router'
-  * import { HomeComponent } from ''
-  * 
+  * import { HomeComponent } from ''  * 
 
 
 

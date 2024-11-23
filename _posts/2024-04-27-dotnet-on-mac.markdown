@@ -27,5 +27,15 @@ Reference
 ## F#
 * [Use F# on macOS | The F# Software Foundation](https://fsharp.org/use/mac/)
 * [Get Started with F# in Visual Studio Code - .NET | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fsharp/get-started/get-started-vscode)
+* [VSCodeにF#の開発環境を導入する方法 #VSCode - Qiita](https://qiita.com/Midoliy/items/1aee06ada5c0081c49d1)
 
+* REPL in terminal
+```bash
+$ dotnet fsi
+```
+* REPL in VS Code: `Cmd+Shif+P FSI: Start`
+
+### Others
+* `Polyglot Notebooks` in VS Code: F#やC#をJupyter Notebookで使える。
+* [Rider: The Cross-Platform .NET IDE from JetBrains](https://www.jetbrains.com/rider/promo/?source=google&medium=cpc&campaign=APAC_en_JP_Rider_Search&term=c%23%20mac&content=468065244703&gad_source=1&gclid=CjwKCAjwoa2xBhACEiwA1sb1BDvfZvDut2gjQmMAaW27rLkbNNv9MQkpUayQcCrGQ7Q1v7wrPQAyQhoCeYQQAvD_BwE)
 

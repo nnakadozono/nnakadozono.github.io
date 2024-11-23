@@ -6,6 +6,9 @@ title: F#
 * [F# 関連のドキュメント - 概要、チュートリアル、リファレンス。 | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/fsharp/)
 * [Symbol and Operator Reference - F# | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/fsharp/language-reference/symbol-and-operator-reference/)
 * [F#ドキュメント | F# documents in Japanese](https://fsdoc.jp/)
+* [F#リファレンス](https://midoliy.com/content/fsharp/index.html)
+* [F# Programming お気楽 F# プログラミング超入門](http://www.nct9.ne.jp/m_hiroi/csharp/fsharp.html)
+
 
 #### F# on Mac
 * [Use F# on macOS | The F# Software Foundation](https://fsharp.org/use/mac/)

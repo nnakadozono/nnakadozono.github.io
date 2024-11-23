@@ -189,7 +189,4 @@ MSDN's primary web presence at msdn.microsoft.com was a collection of sites for 
 * [MSDN と TechNet の docs.microsoft.com への移行に関する更新情報 | Microsoft Learn](https://learn.microsoft.com/ja-jp/teamblog/msdn-technet-migration)
 * [突然消滅したMicrosoft TechNet／MSDNブログ（日本語）の捜索：山市良のうぃんどうず日記（154） - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1906/04/news004.html)
 
-### Rider .NET IDE by JetBrains
-* [Rider: The Cross-Platform .NET IDE from JetBrains](https://www.jetbrains.com/rider/promo/?source=google&medium=cpc&campaign=APAC_en_JP_Rider_Search&term=c%23%20mac&content=468065244703&gad_source=1&gclid=CjwKCAjwoa2xBhACEiwA1sb1BDvfZvDut2gjQmMAaW27rLkbNNv9MQkpUayQcCrGQ7Q1v7wrPQAyQhoCeYQQAvD_BwE)
-
 

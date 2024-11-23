@@ -36,9 +36,22 @@ title: C#
   * setup.exe: Windowsインストーラーがインストールされていない場合には、ダウンロードとインストールを行い、その他の必須コンポーネントが不足している場合にはそのダウンロードとインストールを行ってから、.msiファイルによるセットアップを開始する。
 
 
+#### XML Documentation comments
+[Documentation comments - document APIs using /// comments - C# | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/xmldoc/)
 
+`///`を使うことで、ファイルで定義されている型のAPIドキュメントを生成する構造化されたコメントを含めることができます。C#コンパイラにより、コメントとAPIシグニチャを表す構造化データを含むXMLファイルが生成されます。そのXML出力を他のツールで処理して、たとえばWebページやPDFファイルの形式で、人間が判読できるドキュメントを作成できます。
 
-
+```CSharp
+/// <summary>
+/// Enter description for method someMethod.
+/// ID string generated is "M:MyNamespace.MyClass.someMethod(System.String,System.Int32@,System.Void*)".
+/// </summary>
+/// <param name="str">Describe parameter.</param>
+/// <param name="num">Describe parameter.</param>
+/// <param name="ptr">Describe parameter.</param>
+/// <returns>Describe return value.</returns>
+public int someMethod(string str, ref int nm, void* ptr) { return 1; }
+```
 
 #### Source generator, partial method, GeneratedRegex
 * きっかけ: Formatterでregex source generationの警告がでた。
