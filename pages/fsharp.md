@@ -19,13 +19,35 @@ title: F#
 * [挿入ソートと選択ソートは双対 #Haskell - Qiita](https://qiita.com/lotz/items/a69587882be6e987de4e)
 
 
-#### /// \<inheritdoc/\>
+####
 基底クラス、インターフェイス、および同様のメソッドから、XML コメントを継承する。
 * [Visual Studio 2019 v16.4以降でC#を使う場合にはinheritdocを使った方がいいという話 #C# - Qiita](https://qiita.com/tat_tt/items/095db2ff7f754a01ecb6)
 * [クラスとそのメンバー用として推奨される XML ドキュメント タグ - C# | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/xmldoc/recommended-tags#inheritdoc)
 
+
+#### Option.map
+`map f inp` は次と同じ。
+```fsharp
+match inp with 
+| None -> None 
+| Some x -> Some (f x)
+```
+
+[Option (FSharp.Core) | FSharp.Core](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-optionmodule.html#bind)
+
+```fsharp
+ None |> Option.map (fun x -> x * 2) // evaluates to None
+ Some 42 |> Option.map (fun x -> x * 2) // evaluates to Some 84
+```
+
+
 #### Option.bind
-`bind f inp` evaluates to `match inp with None -> None | Some x -> f x`
+`bind f inp` は次と同じ。ここで `f` はOption型を返す関数。
+```fsharp
+match inp with 
+| None -> None 
+| Some x -> f x
+```
 
 [Option (FSharp.Core) | FSharp.Core](https://fsharp.github.io/fsharp-core-docs/reference/fsharp-core-optionmodule.html#bind)
 
@@ -49,7 +71,6 @@ Convert the option to a Nullable value.
 Some 42 |> Option.toNullable // evaluates to new System.Nullable(42)
 ```
 
-
 #### Option.toObj
 Convert an option to a potentially null value.
 
@@ -59,6 +80,45 @@ Convert an option to a potentially null value.
 (None: string option) |> Option.toObj // evaluates to null
 Some "not a null string" |> Option.toObj // evaluates to "not a null string"
 ```
+
+#### Option型の比較
+F#の `option` 型は、 `None` と `Some` の間で比較を行うとき、次の順序関係をもつ。
+- `None` は、常に `Some` より小さいとみなされる。
+- `Some` の場合は、その中の値同士で比較が行われる。
+
+  ```fsharp
+  > let x: int option = Some 1;;
+  > let y: int option = Some 2;;
+  
+  > x > y;;
+  val it: bool = false
+  
+  > x < y;;
+  val it: bool = true
+  ```
+
+  ```fsharp
+  > let z: int option = None;;
+  
+  > x < z;;
+  val it: bool = false
+  
+  > x > z;;
+  val it: bool = true
+  ```
+  
+  ```fsharp
+  > let t: int option = None;;
+  
+  > z > t;;
+  val it: bool = false
+  
+  > z < t;;
+  val it: bool = false
+  
+  > z = t;;
+  val it: bool = true
+  ```
 
 #### F# on Mac (2024)
 * [Use F# on macOS | The F# Software Foundation](https://fsharp.org/use/mac/)
