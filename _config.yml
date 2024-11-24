@@ -69,4 +69,4 @@ plugins:
 #   - vendor/ruby/
 
 header_pages:
-  - about.markdown
+  - about.md
