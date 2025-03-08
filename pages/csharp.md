@@ -6,6 +6,12 @@ title: C#
 ### LINQPad
 - [LINQPad - The .NET Programmer's Playground](https://www.linqpad.net/)
 
+  ```csharp
+  for (int i = 0; i < 5; i++) {
+      Console.WriteLine(i);
+  }
+  ```
+  
 ### 制御文
 
 <table>
@@ -16,7 +22,7 @@ title: C#
     </tr>
     <!-- if -->
     <tr>
-        <td>`if`</td>
+        <td> `if` </td>
         <td>
             <pre><code class="language-csharp">if (x > 0) {
     Console.WriteLine("Positive number");
@@ -57,11 +63,12 @@ title: C#
         <td><code>for</code></td>
         <td>
 
-```csharp
-for (int i = 0; i < 5; i++) {
-    Console.WriteLine(i);
-}
-```
+  ```csharp
+  for (int i = 0; i < 5; i++) {
+      Console.WriteLine(i);
+  }
+  ```
+
         </td>
         <td>Runs a block a specified number of times.</td>
     </tr>
@@ -190,7 +197,7 @@ public int someMethod(string str, ref int nm, void* ptr) { return 1; }
   * 次のように直すとよいらしい。ただし、partialを使う。
   * [.NET regular expression source generators - .NET &#124; Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/standard/base-types/regular-expression-source-generators?pivots=dotnet-8-0)
 	```C#
-	[GeneratedRegex("abc&#124;def", RegexOptions.IgnoreCase, "en-US")]
+	[GeneratedRegex("abc|def", RegexOptions.IgnoreCase, "en-US")]
 	private static partial Regex AbcOrDefGeneratedRegex();
 
 	private static void EvaluateText(string text)
