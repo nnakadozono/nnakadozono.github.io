@@ -4,8 +4,8 @@ title: Terraform
 ---
 
 ## 参考文献
-* [Terraform for さくらのクラウド スタートガイド （第一回） ～インストールから基本操作 ～ | さくらのナレッジ](https://knowledge.sakura.ad.jp/7230/)
-* [Terraform for さくらのクラウド スタートガイド （第二回） ～便利なビルトイン機能～ | さくらのナレッジ](https://knowledge.sakura.ad.jp/7550/)
+* [Terraform for さくらのクラウド スタートガイド （第一回） ～インストールから基本操作 ～ &#124; さくらのナレッジ](https://knowledge.sakura.ad.jp/7230/)
+* [Terraform for さくらのクラウド スタートガイド （第二回） ～便利なビルトイン機能～ &#124; さくらのナレッジ](https://knowledge.sakura.ad.jp/7550/)
 
 
 ## Infrastructure as Code

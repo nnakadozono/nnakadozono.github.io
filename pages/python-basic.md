@@ -9,7 +9,7 @@ title: Python - basic
 * [Python標準のunittestの使い方メモ - Qiita](https://qiita.com/aomidro/items/3e3449fde924893f18ca)
 
 #### 正規表現 regex
-*Reference: [Pythonの正規表現モジュールreの使い方（match, search, subなど） | note.nkmk.me](https://note.nkmk.me/python-re-match-search-findall-etc/)*
+*Reference: [Pythonの正規表現モジュールreの使い方（match, search, subなど） &#124; note.nkmk.me](https://note.nkmk.me/python-re-match-search-findall-etc/)*
 
 * 検索
     ```python

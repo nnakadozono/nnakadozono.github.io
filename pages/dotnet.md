@@ -2,7 +2,7 @@
 layout: page
 title: Dotnet
 ---
-[.NET documentation | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/)
+[.NET documentation &#124; Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/)
 
 ### What is .NET? (.NET Platform)
 
@@ -42,8 +42,8 @@ title: Dotnet
 > アプリが実行されると、CLRはアセンブリを受け取り、**Just-In-Timeコンパイラ(JIT)** を使用して、実行中のコンピューターの特定のアーキテクチャで実行可能な**マシンコード**に変換する。
 
 * [.NET Frameworkとは何ですか?](https://dotnet.microsoft.com/ja-jp/learn/dotnet/what-is-dotnet-framework)
-* [.NET Framework の使用を開始する - .NET Framework | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/framework/get-started/)
-* [Get started with .NET Framework - .NET Framework | Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/framework/get-started/?WT.mc_id=dotnet-35129-website#Introducing)
+* [.NET Framework の使用を開始する - .NET Framework &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/framework/get-started/)
+* [Get started with .NET Framework - .NET Framework &#124; Microsoft Learn](https://learn.microsoft.com/en-us/dotnet/framework/get-started/?WT.mc_id=dotnet-35129-website#Introducing)
 
 ### What is the .NET Core?
 > .NETの実装の一つ。今は **.NET** と呼ばれている。クロスプラットフォーム。オープンソース。
@@ -51,19 +51,19 @@ title: Dotnet
 ### What is the .NET?
 > .NETの実装の一つ。かつては **.NET Core** と呼ばれていた。クロスプラットフォーム。オープンソース。
 
-* [.NET (および .NET コア) - 概要と概要 | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/introduction)
+* [.NET (および .NET コア) - 概要と概要 &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/introduction)
 
 ### What is the .NET Standard?
 > .NET実装全体に共通するAPIの正式な仕様
 > 2023年現在のバージョンは.NET Standard 2.0
 
-* [.NET Standard | すべての .NET 実装に共通する API](https://dotnet.microsoft.com/ja-jp/platform/dotnet-standard)
+* [.NET Standard &#124; すべての .NET 実装に共通する API](https://dotnet.microsoft.com/ja-jp/platform/dotnet-standard)
 
 ### What is the history of .NET? 
 > 2002年、MicrosoftはWindowsアプリを作成するための開発プラットフォームである.NET Frameworkをリリースした。現在.NET Frameworkはバージョン4.8であり、Microsoftによって完全にサポートされている。
 > 2014年、Microsoftは.NET Frameworkのクロスプラットフォームオープンソースの後継として.NET Coreを導入した。この新しい実装では、.NET Coreという名前がバージョン3.1まで保持された。.NET Core 3.1より後のバージョンには.NET 5という名前が付けられた。新しい.NETバージョンは毎年リリースされ続け、各メジャーバージョン番号は高くなっている。.NET 5 (2020-11), .NET 6 (2021-11) and .NET 7 (2022-11).
 
-* [.NET (および .NET コア) - 概要と概要 | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/introduction)
+* [.NET (および .NET コア) - 概要と概要 &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/introduction)
 * [.NET Core - Versions of .NET](https://versionsof.net/core/)
 
 ### なぜ.NET 4はないのか?
@@ -86,16 +86,16 @@ title: Dotnet
 
 > **ASP.NET Core**は、ASP.NETの、オープンソースでクロスプラットフォームなバージョン
 
-* [ASP.NET | オープン ソースの .NET 向け Web フレームワーク](https://dotnet.microsoft.com/ja-jp/apps/aspnet)
-* [ASP.NET とは? | .NET](https://dotnet.microsoft.com/ja-jp/learn/aspnet/what-is-aspnet)
+* [ASP.NET &#124; オープン ソースの .NET 向け Web フレームワーク](https://dotnet.microsoft.com/ja-jp/apps/aspnet)
+* [ASP.NET とは? &#124; .NET](https://dotnet.microsoft.com/ja-jp/learn/aspnet/what-is-aspnet)
 
 ### What is the NuGet?
 > NuGet is the **package manager for .NET**. The NuGet client tools provide the ability to produce and consume packages. The **NuGet Gallery** is the central package repository used by all package authors and consumers.
 
 > NuGet パッケージは、拡張子が.nupkgの1つのZIPファイルであり、コンパイル済みのコード(DLL)、そのコードに関連する他のファイル、パッケージのバージョン番号などの情報が記述されているマニフェストが含まれる。
 
-* [NuGet Gallery | Home](https://www.nuget.org/)
-* [NuGet とは何か。またどのような働きをするのか | Microsoft Learn](https://learn.microsoft.com/ja-jp/nuget/what-is-nuget)
+* [NuGet Gallery &#124; Home](https://www.nuget.org/)
+* [NuGet とは何か。またどのような働きをするのか &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/nuget/what-is-nuget)
 
 ### What is the Paket?
 > Paket is a **dependency manager for .NET projects**. Paket enables precise and predictable control over your dependencies. With Paket, you can reference: NuGet packages, Files from Git repositories, and Files from any HTTP resource.
@@ -110,7 +110,7 @@ title: Dotnet
 >
 > Paket also enables you to reference files directly from git repositories or any http-resource.
 
-* [NuGet Gallery | Paket 7.2.1](https://www.nuget.org/packages/Paket)
+* [NuGet Gallery &#124; Paket 7.2.1](https://www.nuget.org/packages/Paket)
 
 ### What is the dotnet (.NET CLI)?
 > .NETコマンドラインインターフェイス (CLI)は、.NETアプリケーションを開発、ビルド、実行、発行するためのクロスプラットフォームツールチェーンである。.NET CLIは、.NET SDKに含まれる。
@@ -121,8 +121,8 @@ title: Dotnet
 > * .NETアプリケーションを実行する。
 >   * アプリケーションを実行するには、.dllファイルへのパスを指定する。アプリケーションを実行するということは、エントリポイントを見つけて実行することを意味する。コンソールアプリの場合、これはMainメソッドである。たとえば、dotnet myapp.dllをすると、myappアプリケーションが実行される。デプロイオプションについては、.NET アプリケーションのデプロイを参照のこと。
 
-* [.NET CLI | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/tools/)
-* [dotnet コマンド - .NET CLI | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/tools/dotnet)
+* [.NET CLI &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/tools/)
+* [dotnet コマンド - .NET CLI &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/tools/dotnet)
 
 
 ### What is the dotnet tool?
@@ -130,8 +130,8 @@ title: Dotnet
 >
 > ツールは、NuGetパッケージからインストールされ、コマンドプロンプトから呼び出されるコンソールアプリケーション。ツールは自分で作成することも、サードパーティによって作成されたツールをインストールすることもでる。ツールは、global tools, tool-path tools, and local toolsとも呼ばれる。 
 
-* [.NET CLI | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/tools/)
-* [.NET のツール - .NET CLI | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/tools/global-tools)
+* [.NET CLI &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/tools/)
+* [.NET のツール - .NET CLI &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/core/tools/global-tools)
 
 
 ### What is the Visual C#?
@@ -146,20 +146,20 @@ title: Dotnet
 
 
 ### How to learn to use the Visual Studio?
-* [Visual Studio を使用した C# 開発 - Visual Studio (Windows) | Microsoft Learn](https://learn.microsoft.com/ja-jp/visualstudio/get-started/csharp/?view=vs-2022)
+* [Visual Studio を使用した C# 開発 - Visual Studio (Windows) &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/visualstudio/get-started/csharp/?view=vs-2022)
 
 
 ### What is the WPF (Windows Presentation Foundation)?
 > 解像度に依存せず、ベクターベースのレンダリングエンジンを使用し、最新のグラフィックスハードウェアを活用するために構築されたUIフレームワーク。WPFでは、Extensible Application Markup Language (XAML)、コントロール、データバインディング、レイアウト、2Dおよび3Dグラフィックス、アニメーション、スタイル、テンプレート、ドキュメント、メディア、テキスト、タイポグラフィなどの、アプリケーション開発機能の包括的なセットが提供される。WPFは.NETの一部であるため、.NET APIの他の要素を組み込むアプリケーションを構築できる。
 
-* [Windows Presentation Foundation の概要 - WPF .NET | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/desktop/wpf/overview/?view=netdesktop-7.0)
+* [Windows Presentation Foundation の概要 - WPF .NET &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/desktop/wpf/overview/?view=netdesktop-7.0)
 
 
 ### What is the .NET MAUI?
 > 1つのフレームワークで、ネイティブなクロスプラットフォームのデスクトップアプリとモバイルアプリをすべて構築
 
-* [.NET Multi-platform App UI (.NET MAUI) | .NET](https://dotnet.microsoft.com/ja-jp/apps/maui)
-* [.NET MAUI とは - .NET MAUI | Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/maui/what-is-maui?view=net-maui-7.0)
+* [.NET Multi-platform App UI (.NET MAUI) &#124; .NET](https://dotnet.microsoft.com/ja-jp/apps/maui)
+* [.NET MAUI とは - .NET MAUI &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/maui/what-is-maui?view=net-maui-7.0)
 
 
 ### What is the project for Visual Studio?
@@ -186,7 +186,7 @@ Starting in January 2020, the website was fully integrated with Microsoft Docs (
 
 MSDN's primary web presence at msdn.microsoft.com was a collection of sites for the developer community that provided information, documentation, and discussion that was authored both by Microsoft and by the community at large.
 
-* [MSDN と TechNet の docs.microsoft.com への移行に関する更新情報 | Microsoft Learn](https://learn.microsoft.com/ja-jp/teamblog/msdn-technet-migration)
+* [MSDN と TechNet の docs.microsoft.com への移行に関する更新情報 &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/teamblog/msdn-technet-migration)
 * [突然消滅したMicrosoft TechNet／MSDNブログ（日本語）の捜索：山市良のうぃんどうず日記（154） - ＠IT](https://atmarkit.itmedia.co.jp/ait/articles/1906/04/news004.html)
 
 

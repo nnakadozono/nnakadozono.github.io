@@ -37,11 +37,11 @@ categories: blog
   * 物理系Podcast! みんな聴こう!
 * [Rebuild - Podcast by Tatsuhiko Miyagawa](https://rebuild.fm/)
   * ep374 OpenAI回、ep357 keyboard沼回とかが面白かった。
-* [ジェーン・スーと堀井美香の「OVER THE SUN」 | TBSラジオ ときめくときを。](https://www.tbsradio.jp/ots/)
+* [ジェーン・スーと堀井美香の「OVER THE SUN」 &#124; TBSラジオ ときめくときを。](https://www.tbsradio.jp/ots/)
   * 妻に教えてもらった。  
 
 ### 本
-* [好き好き大好き超愛してる。 (講談社文庫) | 舞城 王太郎 |本 | 通販 | Amazon](https://amzn.asia/d/hoWoUfY)
+* [好き好き大好き超愛してる。 (講談社文庫) | 舞城 王太郎 |本 | 通販 &#124; Amazon](https://amzn.asia/d/hoWoUfY)
   * 心がえぐられた。
 * [ChatGPT/LangChainによるチャットシステム構築［実践］入門：書籍案内｜技術評論社](https://gihyo.jp/book/2023/978-4-297-13839-4)
   * LLM周りの概念を知ることができて良かった。
@@ -69,7 +69,7 @@ categories: blog
   * (マクドと比べて)高いだけあって、めちゃおいしいと思った。夏のパクチーのバーガーを食べた。
 * 畑で育てた里芋
   * 採れたての里芋ってすごくおいしいんだね。
-* [Amazon | 【第2類医薬品】ツムラ漢方補中益気湯エキス顆粒 48包 | ツムラ漢方 | 漢方・生薬](https://amzn.asia/d/cTKB446) 
+* [Amazon | 【第2類医薬品】ツムラ漢方補中益気湯エキス顆粒 48包 | ツムラ漢方 &#124; 漢方・生薬](https://amzn.asia/d/cTKB446) 
   * 効いているのか効いていないのか分からないけど、でも、飲んでいないと体が重く、すごく疲れる気がする。
 
 ### イベントとか

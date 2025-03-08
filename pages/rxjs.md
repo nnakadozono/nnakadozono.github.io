@@ -116,4 +116,4 @@ Read [RxJS を学ぼう #5 – Subject について学ぶ / Observable × Observ
 
 #### Food for thought
 * [【翻訳】あなたが求めていたリアクティブプログラミング入門 - ninjinkun's diary](https://ninjinkun.hatenablog.com/entry/introrxja)
-* [「RxJS」初心者入門 - JavaScriptの非同期処理の常識を変えるライブラリ | 株式会社LIG(リグ)](https://liginc.co.jp/web/js/151272)
+* [「RxJS」初心者入門 - JavaScriptの非同期処理の常識を変えるライブラリ &#124; 株式会社LIG(リグ)](https://liginc.co.jp/web/js/151272)

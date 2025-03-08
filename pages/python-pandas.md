@@ -15,7 +15,7 @@ df.to_csv("output.csv", float_format='%.2f')
 
 
 #### difference (delta) from previous row
-* [pandasで行・列の差分・変化率を取得するdiff, pct_change | note.nkmk.me](https://note.nkmk.me/python-pandas-diff-pct-change/)
+* [pandasで行・列の差分・変化率を取得するdiff, pct_change &#124; note.nkmk.me](https://note.nkmk.me/python-pandas-diff-pct-change/)
 * waypoints.reset_index().timestamp.diff().shift(-1)
 
 #### str.contains accepts regex
@@ -82,7 +82,7 @@ p221
 * [scipy.interpolate.interp2dによる2次元データの補間を解説 – Helve Tech Blog](https://helve-blog.com/posts/python/scipy-interp2d/)
 * [scipy.interpolate.CloughTocher2DInterpolator — SciPy v1.11.4 Manual](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.CloughTocher2DInterpolator.html)
 * [python - How can I perform two-dimensional interpolation using scipy? - Stack Overflow](https://stackoverflow.com/questions/37872171/how-can-i-perform-two-dimensional-interpolation-using-scipy)
-* [How to Interpolate Data with Scipy | by Tirthajyoti Sarkar | Productive Data Science | Medium](https://medium.com/productive-data-science/how-to-interpolate-data-with-scipy-d314143285bc)
+* [How to Interpolate Data with Scipy | by Tirthajyoti Sarkar | Productive Data Science &#124; Medium](https://medium.com/productive-data-science/how-to-interpolate-data-with-scipy-d314143285bc)
 * [python - Problems with scipy.interpolate.interp2d - s or m too small - no more knots can be added - Stack Overflow](https://stackoverflow.com/questions/43946291/problems-with-scipy-interpolate-interp2d-s-or-m-too-small-no-more-knots-can)
 * [Interpolation (scipy.interpolate) — SciPy v1.11.4 Manual](https://docs.scipy.org/doc/scipy/tutorial/interpolate.html)
 * [scipy.interpolate.LinearNDInterpolator — SciPy v1.11.4 Manual](https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.LinearNDInterpolator.html#scipy.interpolate.LinearNDInterpolator)

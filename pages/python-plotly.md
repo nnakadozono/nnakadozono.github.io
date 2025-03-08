@@ -13,7 +13,7 @@ title: Python - pandas
 3. You can check out our exhaustive **reference** guides: the Python API reference or the Figure Reference
 
 #### Tutorials
-* [Data Visualization as The First and Last Mile of Data Science Plotly Express and Dash | SciPy 2021 - YouTube](https://www.youtube.com/watch?v=FpCgG85g2Hw)
+* [Data Visualization as The First and Last Mile of Data Science Plotly Express and Dash &#124; SciPy 2021 - YouTube](https://www.youtube.com/watch?v=FpCgG85g2Hw)
 
 #### Plotly Express
 [Plotly express in Python](https://plotly.com/python/plotly-express/)

@@ -23,13 +23,13 @@ title: Gyo
   * [python - sqlalchemy.exc.NoSuchModuleError: Can't load plugin: sqlalchemy.dialects:postgres - Stack Overflow](https://stackoverflow.com/questions/62688256/sqlalchemy-exc-nosuchmoduleerror-cant-load-plugin-sqlalchemy-dialectspostgre)
 * [Poetry](https://python-poetry.org/)
   * Poetry is a Python packaging and dependency manager.
-  * [Basic usage | Documentation | Poetry - Python dependency management and packaging made easy](https://python-poetry.org/docs/basic-usage/)
-  * [Commands | Documentation | Poetry - Python dependency management and packaging made easy](https://python-poetry.org/docs/cli)
+  * [Basic usage | Documentation &#124; Poetry - Python dependency management and packaging made easy](https://python-poetry.org/docs/basic-usage/)
+  * [Commands | Documentation &#124; Poetry - Python dependency management and packaging made easy](https://python-poetry.org/docs/cli)
   * [Poetry + fastAPI + VScode](https://zenn.dev/fuyu/scraps/5a17cd49801e15)
 * dotenv
 * Terraform
 * Vercel
 * Render
-  * [Deploy for Free | Render Docs](https://render.com/docs/free#free-web-services)
-  * [Specifying a Poetry Version | Render Docs](https://render.com/docs/poetry-version)
+  * [Deploy for Free &#124; Render Docs](https://render.com/docs/free#free-web-services)
+  * [Specifying a Poetry Version &#124; Render Docs](https://render.com/docs/poetry-version)
   * [RenderでPythonバージョンを指定する方法 #Python - Qiita](https://qiita.com/nekkoneko/items/aa138c86bf619026938a)

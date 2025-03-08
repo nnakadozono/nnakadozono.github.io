@@ -5,7 +5,7 @@ title: ChatGPT
 
 ## References
 * [Documentation - OpenAI API](https://platform.openai.com/docs/overview)
-* [Prompt Engineering Guide | Prompt Engineering Guide](https://www.promptingguide.ai/jp)
+* [Prompt Engineering Guide &#124; Prompt Engineering Guide](https://www.promptingguide.ai/jp)
 
 ## Usage
 * [ChatGPTの「Code Interpreter」のスゴさ　ノーコードでデータ分析＆画像生成 - Impress Watch](https://www.watch.impress.co.jp/docs/topic/1520290.html)
