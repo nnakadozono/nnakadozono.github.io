@@ -6,6 +6,137 @@ title: C#
 ### LINQPad
 - [LINQPad - The .NET Programmer's Playground](https://www.linqpad.net/)
 
+### 制御文
+
+<table>
+    <tr>
+        <th>Syntax</th>
+        <th>Sample</th>
+        <th>Remarks</th>
+    </tr>
+    <!-- if -->
+    <tr>
+        <td>`if`</td>
+        <td>
+            <pre><code class="language-csharp">if (x > 0) {
+    Console.WriteLine("Positive number");
+} else if (x < 0) {
+    Console.WriteLine("Negative number");
+} else {
+    Console.WriteLine("Zero");
+}
+</code></pre>
+        </td>
+        <td></td>
+    </tr>
+    <!-- switch -->
+    <tr>
+        <td><code>switch</code></td>
+        <td>
+            <pre><code class="language-csharp">switch (day) {
+    case 1:
+        Console.WriteLine("Monday");
+        break;
+    case 2:
+        Console.WriteLine("Tuesday");
+        break;
+    default:
+        Console.WriteLine("Other day");
+        break;
+}
+</code></pre>
+        </td>
+        <td>
+            Each <code>case</code> must end with a jump statement (e.g., <code>break</code>, <code>goto</code>, <code>return</code>, or <code>throw</code>). 
+            There is no automatic fallthrough like in C/C++. 
+            Omitting a jump statement causes a compile error.
+        </td>
+    </tr>
+    <!-- for -->
+    <tr>
+        <td><code>for</code></td>
+        <td>
+
+```csharp
+for (int i = 0; i < 5; i++) {
+    Console.WriteLine(i);
+}
+```
+        </td>
+        <td>Runs a block a specified number of times.</td>
+    </tr>
+    <!-- while -->
+    <tr>
+        <td><code>while</code></td>
+        <td>
+            <pre><code class="language-csharp">while (x > 0) {
+    x--;
+    Console.WriteLine(x);
+}
+</code></pre>
+        </td>
+        <td>Executes as long as the condition is true.</td>
+    </tr>
+    <!-- do while -->
+    <tr>
+        <td><code>do while</code></td>
+        <td>
+            <pre><code class="language-csharp">do {
+    Console.WriteLine(x);
+    x--;
+} while (x > 0);
+</code></pre>
+        </td>
+        <td>Executes at least once, then checks the condition at the end.</td>
+    </tr>
+    <!-- foreach -->
+    <tr>
+        <td><code>foreach</code></td>
+        <td>
+            <pre><code class="language-csharp">foreach (var item in items) {
+    Console.WriteLine(item);
+}
+</code></pre>
+        </td>
+        <td>Iterates through each element of a collection or array.</td>
+    </tr>
+    <!-- break -->
+    <tr>
+        <td><code>break</code></td>
+        <td>
+            <pre><code class="language-csharp">for (int i = 0; i < 10; i++) {
+    if (i == 5) break;
+}
+</code></pre>
+        </td>
+        <td>Exits the nearest enclosing loop or switch statement.</td>
+    </tr>
+    <!-- continue -->
+    <tr>
+        <td><code>continue</code></td>
+        <td>
+            <pre><code class="language-csharp">for (int i = 0; i < 10; i++) {
+    if (i % 2 == 0) continue;
+    Console.WriteLine(i);
+}
+</code></pre>
+        </td>
+        <td>Skips the rest of the current loop iteration and continues with the next iteration.</td>
+    </tr>
+    <!-- return -->
+    <tr>
+        <td><code>return</code></td>
+        <td>
+            <pre><code class="language-csharp">int Add(int a, int b) {
+    return a + b;
+}
+</code></pre>
+        </td>
+        <td>Exits the current method and optionally returns a value.</td>
+    </tr>
+</table>
+
+
 ### Select method
 [【C#入門】LINQ の Select、Where でコレクションを操作する方法 &#124; 侍エンジニアブログ](https://www.sejuku.net/blog/47172)
 
