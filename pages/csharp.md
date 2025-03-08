@@ -6,12 +6,6 @@ title: C#
 {:.no_toc} 
 {:toc}
 
-## Tools
-- [LINQPad - The .NET Programmer's Playground](https://www.linqpad.net/)
-
-C# Collections Cheat Sheet
-
-
 ## List<T>
 
 可変長のリスト構造。インデックスアクセスが可能で、要素の追加・削除が容易。(配列(Array)`T[]`は固定サイズで変更不可。)
@@ -65,7 +59,7 @@ List<int> listFromArray = new List<int>(array);
 
 
 ## LINQのメソッド構文
-LINQ (Language Integrated Query)は、SQL文の構文をC#言語に取り込んだもの。データベース、コレクション、XMLドキュメントなどの操作を統一した構文で扱うことができる。クエリ式とメソッド構文がある。処理が必要な時にだけクエリが実行される、遅延実行。
+LINQ (Language Integrated Query)は、SQL文の構文をC#言語に取り込んだもの。データベース、コレクションコレクション (`T[]`, `List<T>`, `Dictionary<TKey, TValue>`)、XMLドキュメントなどの操作を統一した構文で扱うことができる。クエリ式とメソッド構文がある。処理が必要な時にだけクエリが実行される、遅延実行。
 
 ### 投影 (Projection)
 
@@ -364,4 +358,10 @@ public int someMethod(string str, ref int nm, void* ptr) { return 1; }
   * [partial メソッドの拡張 (C# 9.0 候補機能) &#124; ++C++; // 未確認飛行 C ブログ](https://ufcpp.net/blog/2020/6/extendingpartialmethod/)
 * **GeneratedRegex**: 正規表現に相当するコードをコンパイル時に生成してくれる。
   * [GeneratedRegexで遊ぶ #C# - Qiita](https://qiita.com/kurema/items/068385ba2f8bbe3858e1)
+
+## Tools
+- [LINQPad - The .NET Programmer's Playground](https://www.linqpad.net/)
+
+C# Collections Cheat Sheet
+
 
