@@ -11,7 +11,15 @@ title: C#
       Console.WriteLine(i);
   }
   ```
-  
+
+<pre><code class="language-csharp">if (x > 0) {
+    Console.WriteLine("Positive number");
+} else if (x < 0) {
+    Console.WriteLine("Negative number");
+} else {
+    Console.WriteLine("Zero");
+}</code></pre>
+
 ### 制御文
 
 <table>
@@ -63,11 +71,11 @@ title: C#
         <td><code>for</code></td>
         <td>
 
-  ```csharp
-  for (int i = 0; i < 5; i++) {
-      Console.WriteLine(i);
-  }
-  ```
+```csharp
+for (int i = 0; i < 5; i++) {
+    Console.WriteLine(i);
+}
+```
 
         </td>
         <td>Runs a block a specified number of times.</td>
