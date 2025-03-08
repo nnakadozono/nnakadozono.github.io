@@ -1,0 +1,23 @@
+/* Minima テーマのコンテンツ幅を広げる */
+.page-content {
+    max-width: 95%; /* 横幅を95%に設定 */
+    margin: 0 auto;  /* 中央寄せ */
+    padding: 20px;   /* 余白を追加 */
+}
+
+/* ナビゲーションやサイドメニューがある場合 */
+.container {
+    max-width: 100%;
+}
+
+/* テーブルの横スクロールを有効にする */
+table {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* 画像をコンテンツ幅に合わせる */
+img {
+    max-width: 100%;
+    height: auto;
+}
