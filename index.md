@@ -6,6 +6,11 @@ layout: home
 ---
 Welcome. 
 
+## .NET
+[.NET](/pages/dotnet.md) \| 
+[C#](/pages/csharp.md) \|
+[F#](/pages/fsharp.md) \|
+
 ## Python
 [Basic](pages/python-basic.md) \| 
 [Pandas](/pages/python-pandas.md) \| 
@@ -22,11 +27,6 @@ Welcome.
 [RxJS](/pages/rxjs.md) \| 
 [NgRX](/pages/ngrx.md) \|
 
-## .NET
-[.NET](/pages/dotnet.md) \| 
-[C#](/pages/csharp.md) \|
-[F#](/pages/fsharp.md) \|
-
 ## General Development
 [General](/pages/general-dev.md) \| 
 [Private] [Docker - basic](/pages/private/docker-basic) \| 
@@ -34,6 +34,7 @@ Welcome.
 [Gyo](/pages/gyo.md) \| 
 [Windows](/pages/windows.md) \| 
 [AWS Certification](/pages/aws-certification.md) \| 
+[Apache](/pages/apache.md) \| 
 
 [ChatGPT](/pages/chatgpt.md) \| 
 [LangChain](/pages/langchain.md) \| 

@@ -2,8 +2,8 @@
 layout: page
 title: C#
 ---
-
 {:.no_toc} 
+
 {:toc}
 
 ## List<T>
@@ -362,6 +362,5 @@ public int someMethod(string str, ref int nm, void* ptr) { return 1; }
 ## Tools
 - [LINQPad - The .NET Programmer's Playground](https://www.linqpad.net/)
 
-C# Collections Cheat Sheet
 
 
