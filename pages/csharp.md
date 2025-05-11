@@ -292,7 +292,14 @@ LINQ (Language Integrated Query)は、SQL文の構文をC#言語に取り込ん�
 
 
 ## async/await
-* [async と await を使ったタスク非同期プログラミング (TAP) モデル - C# &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/csharp/asynchronous-programming/task-asynchronous-programming-model)
+See [async/await](../_posts/2025-05-11-async-await.markdown)
+
+過去に参考にしたサイト
+
+* [【C#】C# の async/await は実際にどうやって動いているか。 - ねののお庭。](https://blog.neno.dev/entry/2023/05/27/152855)
+* [C# Taskの待ちかた集 #C# - Qiita](https://qiita.com/takutoy/items/d45aa736ced25a8158b3)
+* [C# 並行・並列プログラミング パターン集 #.NET - Qiita](https://qiita.com/takutoy/items/c384fcb439d345a9a0d3)
+* [Taskを極めろ！async/await完全攻略 #C# - Qiita](https://qiita.com/acple@github/items/8f63aacb13de9954c5da)
 
 ## チーム開発の教科書
 * 静的コード分析

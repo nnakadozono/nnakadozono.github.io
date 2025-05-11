@@ -15,7 +15,6 @@ title: F#
 * [Ionide](https://ionide.io/index.html)
 
 #### Food for Thought
-* [Railway oriented programming &#124; F# for fun and profit](https://fsharpforfunandprofit.com/posts/recipe-part2/)
 * [挿入ソートと選択ソートは双対 #Haskell - Qiita](https://qiita.com/lotz/items/a69587882be6e987de4e)
 
 
@@ -23,6 +22,48 @@ title: F#
 基底クラス、インターフェイス、および同様のメソッドから、XML コメントを継承する。
 * [Visual Studio 2019 v16.4以降でC#を使う場合にはinheritdocを使った方がいいという話 #C# - Qiita](https://qiita.com/tat_tt/items/095db2ff7f754a01ecb6)
 * [クラスとそのメンバー用として推奨される XML ドキュメント タグ - C# &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/csharp/language-reference/xmldoc/recommended-tags#inheritdoc)
+
+
+## async/await
+See [async/await](../_posts/2025-05-11-async-await.markdown)
+
+## Result型 (Result<'TSuccess, 'TError>)
+関数の実行結果が「成功」または「失敗」のどちらかであることを表す代数的データ型。例外を使わずにエラー処理を行うために広く使われる。
+
+* *[結果 - F# &#124; Microsoft Learn](https://learn.microsoft.com/ja-jp/dotnet/fsharp/language-reference/results)*
+* *[Railway oriented programming &#124; F# for fun and profit](https://fsharpforfunandprofit.com/posts/recipe-part2/)*
+
+### 基本形
+組み込み型なので、自分で定義する必要はない。
+```fsharp
+type Result<'TSuccess, 'TError> =
+    | Ok of 'TSuccess
+    | Error of 'TError
+```
+
+### 例
+```fsharp
+let divide x y =
+    if y = 0 then
+        Error "Division by zero"
+    else
+        Ok (x / y)
+
+match divide 10 2 with
+| Ok result -> printfn "Result: %d" result
+| Error err -> printfn "Error: %s" err
+```
+match式を使えば、Resultの中身に安全にアクセスできる。Result型は
+
+### Resultとよく使う関数(標準モジュール)
+* `Result.map f`： `Ok x`に対して`f x`を適用し、`Error`はそのまま
+* `Result.bind f`： `Ok x`に対して`f x`（`Result`を返す関数）を適用
+* `Result.defaultValue fallback`： `Ok`の値またはデフォルト値`fallback`を返す
+
+```fsharp
+let result1 = divide 10 2 |> Result.map (fun x -> x * 3) // -> Ok 15
+let result2 = divide 10 0 |> Result.defaultValue -1  // -> -1
+```
 
 
 #### Option.map
@@ -133,6 +174,7 @@ F#の `option` 型は、 `None` と `Some` の間で比較を行うとき、次�
 #### Fnatomas
 * [Fantomas](https://fsprojects.github.io/fantomas/)
 F# source code formatter
+
 
 
 #### Seq, List, Array
