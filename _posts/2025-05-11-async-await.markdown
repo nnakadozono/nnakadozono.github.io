@@ -148,9 +148,10 @@ async def main():
   </tr>
 
   <tr>
-    <td>例1（逐次処理）</td>
+    <td>例1（逐次処理、戻り値あり）</td>
     <td>
-<pre><code class="language-python">import asyncio
+{% highlight python %}
+import asyncio
 
 async def say_after(delay, what):
     await asyncio.sleep(delay)
@@ -161,13 +162,15 @@ async def main():
     result2 = await say_after(2, "world")
     print(result1 + " " + result2)
 
-asyncio.run(main())</code></pre>
+asyncio.run(main())
+{% endhighlight %}
     </td>
     <td>
-<pre><code class="language-csharp">using System;
+{% highlight csharp %}
+using System;
 using System.Threading.Tasks;
 
-async Task&lt;string&gt; SayAfter(int delay, string what)
+async Task<string> SayAfter(int delay, string what)
 {
     await Task.Delay(delay * 1000);
     return what;
@@ -180,10 +183,12 @@ async Task MainAsync()
     Console.WriteLine(result1 + " " + result2);
 }
 
-await MainAsync();</code></pre>
+await MainAsync();
+{% endhighlight %}
     </td>
     <td>
-<pre><code class="language-fsharp">open System.Threading.Tasks
+{% highlight fsharp %}
+open System.Threading.Tasks
 
 let sayAfter delay what = task {
     do! Task.Delay(delay * 1000)
@@ -196,10 +201,12 @@ let main = task {
     printfn "%s %s" result1 result2
 }
 
-main.Wait()</code></pre>
+main.Wait()
+{% endhighlight %}
     </td>
     <td>
-<pre><code class="language-fsharp">let sayAfter delay what = async {
+{% highlight fsharp %}
+let sayAfter delay what = async {
     do! Async.Sleep(delay * 1000)
     return what
 }
@@ -210,24 +217,40 @@ let main = async {
     printfn "%s %s" result1 result2
 }
 
-Async.RunSynchronously main</code></pre>
+Async.RunSynchronously main
+{% endhighlight %}
     </td>
   </tr>
 
   <tr>
-    <td>例2（並行処理）</td>
+    <td>例2（並行処理、戻り値あり）</td>
     <td>
-<pre><code class="language-python">async def main():
+{% highlight python %}
+import asyncio
+
+async def say_after(delay, what):
+    await asyncio.sleep(delay)
+    return what
+
+async def main():
     task1 = asyncio.create_task(say_after(1, "hello"))
     task2 = asyncio.create_task(say_after(2, "world"))
     result1 = await task1
     result2 = await task2
     print(result1 + " " + result2)
 
-asyncio.run(main())</code></pre>
+asyncio.run(main())
+{% endhighlight %}
     </td>
     <td>
-<pre><code class="language-csharp">async Task MainAsync()
+{% highlight csharp %}
+async Task<string> SayAfter(int delay, string what)
+{
+    await Task.Delay(delay * 1000);
+    return what;
+}
+
+async Task MainAsync()
 {
     var task1 = SayAfter(1, "hello");
     var task2 = SayAfter(2, "world");
@@ -235,27 +258,42 @@ asyncio.run(main())</code></pre>
     Console.WriteLine(results[0] + " " + results[1]);
 }
 
-await MainAsync();</code></pre>
+await MainAsync();
+{% endhighlight %}
     </td>
     <td>
-<pre><code class="language-fsharp">let main = task {
+{% highlight fsharp %}
+let sayAfter delay what = task {
+    do! Task.Delay(delay * 1000)
+    return what
+}
+
+let main = task {
     let t1 = sayAfter 1 "hello"
     let t2 = sayAfter 2 "world"
     let! results = Task.WhenAll(t1, t2)
     printfn "%s %s" results[0] results[1]
 }
 
-main.Wait()</code></pre>
+main.Wait()
+{% endhighlight %}
     </td>
     <td>
-<pre><code class="language-fsharp">let main = async {
+{% highlight fsharp %}
+let sayAfter delay what = async {
+    do! Async.Sleep(delay * 1000)
+    return what
+}
+
+let main = async {
     let t1 = sayAfter 1 "hello"
     let t2 = sayAfter 2 "world"
     let! results = [t1; t2] |> Async.Parallel
     printfn "%s %s" results[0] results[1]
 }
 
-Async.RunSynchronously main</code></pre>
+Async.RunSynchronously main
+{% endhighlight %}
     </td>
   </tr>
 
@@ -267,6 +305,7 @@ Async.RunSynchronously main</code></pre>
     <td><code>Async.RunSynchronously</code></td>
   </tr>
 </table>
+
 
 
 ## F#の補足
