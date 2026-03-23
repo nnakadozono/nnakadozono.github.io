@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>8秒 x 20セット タイマー</title>
+  <title>Interval Timer</title>
   <style>
     body {
       font-family: sans-serif;
@@ -37,13 +37,13 @@
   </style>
 </head>
 <body>
-  <h1>8秒 × 20セット</h1>
+  <h1>8 sec × 20 sets</h1>
   <div class="big" id="sec">8</div>
-  <div class="mid" id="set">1 / 20 セット</div>
-  <div class="small" id="status">開始待ち</div>
+  <div class="mid" id="set">1 / 20 sets</div>
+  <div class="small" id="status">Ready</div>
 
-  <button id="startBtn">開始</button>
-  <button id="stopBtn">停止</button>
+  <button id="startBtn">Start</button>
+  <button id="stopBtn">Stop</button>
 
   <script>
     let audioCtx;
@@ -89,10 +89,10 @@
 
     function updateDisplay() {
       secEl.textContent = currentSec;
-      setEl.textContent = `${currentSet} / ${totalSets} セット`;
+      setEl.textContent = `${currentSet} / ${totalSets} sets`;
     }
 
-    function stopTimer(message = "停止") {
+    function stopTimer(message = "Stopped") {
       if (timerId) {
         clearTimeout(timerId);
         timerId = null;
@@ -114,7 +114,7 @@
     function runTick() {
       if (currentSet > totalSets) {
         beep(1000, 0.35, 0.12);
-        stopTimer("完了");
+        stopTimer("Finished");
         return;
       }
 
@@ -137,7 +137,7 @@
       }
 
       updateDisplay();
-      statusEl.textContent = "実行中";
+      statusEl.textContent = "Running";
     }
 
     function startTimer() {
@@ -146,14 +146,14 @@
       currentSet = 1;
       currentSec = secondsPerSet;
       updateDisplay();
-      statusEl.textContent = "実行中";
+      statusEl.textContent = "Running";
 
       nextTime = performance.now() + 1000;
       scheduleTick();
     }
 
     startBtn.addEventListener("click", startTimer);
-    stopBtn.addEventListener("click", () => stopTimer("停止"));
+    stopBtn.addEventListener("click", () => stopTimer("Stopped"));
 
     updateDisplay();
   </script>
