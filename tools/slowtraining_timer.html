@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>8秒 x 20セット タイマー</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+      background: #fff;
+      color: #111;
+    }
+    .big {
+      font-size: 64px;
+      font-weight: bold;
+      margin: 20px 0 10px;
+    }
+    .mid {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+    .small {
+      font-size: 20px;
+      color: #555;
+      margin-bottom: 30px;
+    }
+    button {
+      font-size: 24px;
+      padding: 16px 28px;
+      margin: 8px;
+      border-radius: 12px;
+      border: 1px solid #ccc;
+      background: #f5f5f5;
+    }
+  </style>
+</head>
+<body>
+  <h1>8秒 × 20セット</h1>
+  <div class="big" id="sec">8</div>
+  <div class="mid" id="set">1 / 20 セット</div>
+  <div class="small" id="status">開始待ち</div>
+
+  <button id="startBtn">開始</button>
+  <button id="stopBtn">停止</button>
+
+  <script>
+    let audioCtx;
+    let timerId = null;
+    let totalSets = 20;
+    let secondsPerSet = 8;
+    let currentSet = 1;
+    let currentSec = 8;
+    let nextTime = 0;
+
+    const secEl = document.getElementById("sec");
+    const setEl = document.getElementById("set");
+    const statusEl = document.getElementById("status");
+    const startBtn = document.getElementById("startBtn");
+    const stopBtn = document.getElementById("stopBtn");
+
+    function ensureAudio() {
+      if (!audioCtx) {
+        audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      }
+      if (audioCtx.state === "suspended") {
+        audioCtx.resume();
+      }
+    }
+
+    function beep(freq, duration = 0.08, volume = 0.08) {
+      const osc = audioCtx.createOscillator();
+      const gain = audioCtx.createGain();
+
+      osc.type = "sine";
+      osc.frequency.value = freq;
+      gain.gain.value = volume;
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      const now = audioCtx.currentTime;
+      osc.start(now);
+      gain.gain.setValueAtTime(volume, now);
+      gain.gain.exponentialRampToValueAtTime(0.001, now + duration);
+      osc.stop(now + duration);
+    }
+
+    function updateDisplay() {
+      secEl.textContent = currentSec;
+      setEl.textContent = `${currentSet} / ${totalSets} セット`;
+    }
+
+    function stopTimer(message = "停止") {
+      if (timerId) {
+        clearTimeout(timerId);
+        timerId = null;
+      }
+      statusEl.textContent = message;
+    }
+
+    function scheduleTick() {
+      const now = performance.now();
+      const delay = Math.max(0, nextTime - now);
+
+      timerId = setTimeout(() => {
+        runTick();
+        nextTime += 1000;
+        if (timerId !== null) scheduleTick();
+      }, delay);
+    }
+
+    function runTick() {
+      if (currentSet > totalSets) {
+        beep(1000, 0.35, 0.12);
+        stopTimer("完了");
+        return;
+      }
+
+      if (currentSec > 1) {
+        currentSec--;
+        beep(440, 0.06, 0.05);
+      } else {
+        beep(880, 0.18, 0.1);
+        if (navigator.vibrate) navigator.vibrate(150);
+
+        if (currentSet === totalSets) {
+          currentSec = 0;
+          updateDisplay();
+          currentSet++;
+          return;
+        }
+
+        currentSet++;
+        currentSec = secondsPerSet;
+      }
+
+      updateDisplay();
+      statusEl.textContent = "実行中";
+    }
+
+    function startTimer() {
+      ensureAudio();
+      stopTimer();
+      currentSet = 1;
+      currentSec = secondsPerSet;
+      updateDisplay();
+      statusEl.textContent = "実行中";
+
+      nextTime = performance.now() + 1000;
+      scheduleTick();
+    }
+
+    startBtn.addEventListener("click", startTimer);
+    stopBtn.addEventListener("click", () => stopTimer("停止"));
+
+    updateDisplay();
+  </script>
+</body>
+</html>
